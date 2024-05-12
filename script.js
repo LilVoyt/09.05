@@ -126,7 +126,7 @@
 
   console.log(myArr.length);
   console.log(myArr);
-  myArr.push(70);
+  myArr.push(55);
 
   console.log(myArr.every((element) => element < 40))
-  console.log(myArr.some((element) => element < 60))
+  console.log(myArr.some((element) => element > 60))
